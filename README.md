@@ -24,7 +24,7 @@ API scheme representation, which is then converted into Go code.
 
 ## Implementation Progress
 
-Complete.
+Complete (almost)
 
  - [x] GC session state management
  - [x] Player profile fetching / call tracking
@@ -38,6 +38,7 @@ Complete.
     - [x] Implement normal party operations
  - [x] Code generation for API
  - [x] Code generation for events
+ - [ ] Update [go-steam](https://github.com/paralin/go-steam) to automatically fetch and update steam CM servers
 
 ## SOCache Mechanism
 
@@ -77,3 +78,11 @@ This means that ALL of the Dota API will be available in this codebase, although
 ## go-steam Dependency
 
 This library depends on [go-steam](https://github.com/paralin/go-steam).
+
+## Detailed documentation
+
+I'm currently working on a detailed documentation for this library. As soon as I'm done with basic stuff such as updating protos and generating APIs, I'll be publishing it in this repo.
+
+## Credits
+
+Thanks to [paralin](https://github.com/paralin), the original creator of this library. It seems, however, like he doesn't really maintain it anymore. That's the reason this fork exists.
